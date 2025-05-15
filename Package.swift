@@ -22,6 +22,7 @@ let package = Package(
         .package(url: "https://github.com/cdiaz-dev/swift-numerics", from: "1.0.4"),
     ],
     targets: [
+        .binaryTarget(name: "RustFramework", path: "rust/MobileSdkRs/RustFramework.xcframework"),
         .target(
             name: "SpruceIDMobileSdkRs",
             dependencies: [
