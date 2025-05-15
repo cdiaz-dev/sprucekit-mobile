@@ -5,7 +5,7 @@ edition = "2021"
 authors = ["Spruce Systems, Inc."]
 license = "Apache-2.0 OR MIT"
 description = "Mobile SDK Rust bindings"
-repository = "https://github.com/spruceid/sprucekit-mobile/"
+repository = "https://github.com/cdiaz-dev/sprucekit-mobile/"
 
 [lib]
 crate-type = ["staticlib", "lib", "cdylib"]
