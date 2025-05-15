@@ -1,0 +1,6 @@
+.DS_Store
+.idea/
+.direnv/
+.envrc
+/.build
+.swiftpm
