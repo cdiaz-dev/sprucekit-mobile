@@ -133,10 +133,6 @@ struct WalletSettingsHomeBody: View {
                         keyAlias: keyAlias
                     )
                     
-                    
-                    
-                    let jsonData = try JSONEncoder().encode(mdl.jsonEncodedDetails())
-                           return String(data: jsonData, encoding: .utf8)
                     let credentialPacks = credentialPackObservable
                         .credentialPacks
                     let mdocPack =
