@@ -9,16 +9,16 @@ let package = Package(
     ],
     products: [
         .library(
-            name: "SpruceIDMobileSdk", type: .dynamic,  
+            name: "SpruceIDMobileSdk",
             targets: ["SpruceIDMobileSdk"]
         ),
         .library(
-            name: "SpruceIDMobileSdkRs", type: .dynamic,  
+            name: "SpruceIDMobileSdkRs",
             targets: ["SpruceIDMobileSdkRs"]
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/apple/swift-algorithms", from: "1.2.0"),
+        .package(url: "https://github.com/apple/swift-algorithms", from: "1.2.0")
     ],
     targets: [
         .binaryTarget(name: "RustFramework", path: "rust/MobileSdkRs/RustFramework.xcframework"),
