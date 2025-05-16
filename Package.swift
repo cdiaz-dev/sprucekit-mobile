@@ -24,7 +24,7 @@ let package = Package(
         .binaryTarget(
             name: "RustFramework", 
             url: "https://github.com/cdiaz-dev/sprucekit-mobile/releases/download/1.0.7/RustFramework.xcframework.zip",
-            checksum: "239a64f5d0de90f294eac687cde5063239f2e23c4799262b8b37c98a3f9c21e"
+            checksum: "3239a64f5d0de90f294eac687cde5063239f2e23c4799262b8b37c98a3f9c21e"
         ),
         .target(
             name: "SpruceIDMobileSdkRs",
